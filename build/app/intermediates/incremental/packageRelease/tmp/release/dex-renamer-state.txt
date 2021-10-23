@@ -1,0 +1,4 @@
+#Sat Sep 25 02:41:13 EET 2021
+base.0=/media/pola/30FF252C160593E1/Github/ToDoApp/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

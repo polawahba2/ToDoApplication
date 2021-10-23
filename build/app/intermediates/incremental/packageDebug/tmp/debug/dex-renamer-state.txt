@@ -1,0 +1,4 @@
+#Sat Oct 23 15:54:20 EET 2021
+base.0=/media/pola/30FF252C160593E1/Github/ToDoApp/ToDoApplication/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
