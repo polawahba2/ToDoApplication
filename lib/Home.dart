@@ -130,6 +130,20 @@ class HomeWedgit extends StatelessWidget {
                                       print(value.format(context).toString());
                                     });
                                   },
+                                  onFieldSubmitted: (value) {
+                                    if (formKey.currentState!.validate()) {
+                                      myCubit.changeBottomSheet(false);
+
+                                      myCubit.insertDB(taskTittle.text,
+                                          taskDate.text, taskTime.text);
+
+                                      taskTittle.text = "";
+                                      taskDate.text = "";
+                                      taskTime.text = "";
+
+                                      Navigator.pop(context);
+                                    }
+                                  },
                                 ),
                                 TextButton(
                                     onPressed: () {
